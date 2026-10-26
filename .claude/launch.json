@@ -1,0 +1,17 @@
+﻿{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jeju",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "jeju"],
+      "port": 8123
+    },
+    {
+      "name": "deploy",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8124", "--directory", "C:\\vibe\\deploy"],
+      "port": 8124
+    }
+  ]
+}
